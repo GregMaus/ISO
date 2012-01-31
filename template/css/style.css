@@ -122,10 +122,10 @@ h2.title a:hover{color:#4a630f;}
 .entry .alignleft,.entry img.alignleft{display:inline;float:left;margin:10px 10px 10px 0;}
 .entry .alignright,.entry img.alignright{display:inline;float:right;margin:10px 0 10px 10px;}
 .entry .aligncenter,.entry img.aligncenter{clear:both;display:block;margin:10px auto;}
-.entry table,
-.comment-text table{background:#fff;border:1px solid #ccc;border-width:2px;border-collapse:collapse;margin:5px 0 10px;}
+.entry 
+.comment-text {background:#fff;border:1px solid #ccc;border-width:2px;border-collapse:collapse;margin:5px 0 10px;}
 .entry th,.entry td,
-.comment-text th,.comment-text td{border:1px solid #ccc;padding:3px 10px;text-align:left;vertical-align:top;}
+.comment-text th,.comment-text td{border:0px solid #ccc;padding:3px 10px;vertical-align:top;}
 .entry tr.even td,
 .comment-text tr.even td{background:#f7f7f7;}
 .entry th,
@@ -144,12 +144,12 @@ h2.title a:hover{color:#4a630f;}
 .post-info-bottom{border-bottom:1px solid #fff;line-height:24px;position:relative;color:#999;margin:0;padding:2px 10px;overflow:hidden;display:block;}
 .post-info-top a,.post-info-bottom a{color:#999;}
 .post-info-top a:hover,.post-info-bottom a:hover{color:#4a630f;text-decoration:underline;}
-.entry p.read-more a,.entry p a.more-link,.post-info-date,.post-info-category,.post-info-tags,#gotocomments,#addcomment{display:block;padding-left:20px;background:url("../images/icons.gif") no-repeat scroll 0 0;}
+.entry p.read-more a,.entry p a.more-link,.post-info-date,.post-info-category,.post-info-tags{display:block;padding-left:20px;background:url("../images/icons.gif") no-repeat scroll 0 0;}
 .post-info-date{float:left;background-position:0 -40px;}
 .post-info-category{display:inline;background-position:-35px -60px;}
 .post-info-tags{display:inline;background-position:-20px -240px;margin-left:10px;}
-#gotocomments{float:right;background-position:0 -100px;margin-right:10px;}
-#addcomment{float:right;background-position:0 -120px;}
+#gotocomments{float:right;margin-right:10px;}
+#addcomment{float:right;}
 .entry p.read-more a,.entry p a.more-link{display:inline-block;color:#999;text-decoration:none;background-position:0 -20px;}
 .entry .zbench-more-link{display:block;margin-top:18px;}
 .entry p.read-more a:hover,.entry p a.more-link:hover{color:#4a630f;}
@@ -206,4 +206,11 @@ h2.sticky-h2 a{color:#ff4e00;}
 #footer-inside #back-to-top{position:absolute;top:5px;right:150px;line-height:20px;color:#fafafa;font-weight:bold;}
 #footer-inside #back-to-top a{line-height:20px;color:#aaa;font-weight:normal;border:none;}
 #footer-inside #back-to-top a:hover{color:#f7f7f7;}
+
+.scripture {font-weight: bold; font-size:16px}
+.phonetics {font-size: 12px}
+.traslate {font-size: 12px;color: green}
+
+.heb{text-align: right}
+
 
