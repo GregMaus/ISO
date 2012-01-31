@@ -111,7 +111,7 @@ h2.title a:hover{color:#4a630f;}
 .entry ul,.entry ol{margin:0 30px 18px;}
 .entry li{line-height:18px;}
 .entry hr{display:block;margin:18px 0;}
-.entry p{line-height:18px;margin:0 0 18px 0;}
+.entry p{line-height:18px;margin:0 0 0px 0;}
 .entry h1,.entry h2,.entry h3,.entry h4,.entry h5,.entry h6,
 .comment-text h1,.comment-text h2,.comment-text h3,.comment-text h4,.comment-text h5,.comment-text h6{margin:0 0 18px 0;color:#555;}
 .entry a{color:#333;text-decoration:underline;}
@@ -131,7 +131,10 @@ h2.title a:hover{color:#4a630f;}
 .entry th,
 .comment-text th{background:#edeff0;}
 .entry blockquote,
-.comment-text blockquote{color:#555;padding:10px;margin:0 0 20px;border:1px solid #ddd;background:#eee;}
+.comment-text blockquote{color:#555;padding:10px;margin:0 0 0px;border-bottom:0px solid #ddd;background:#eee;}
+
+.p{color:#555;padding:10px;margin:0 0 0px;border:0px solid #ddd;}
+
 .entry code,
 .comment-text code{background:#333;color:#ddd;}
 .entry pre,
@@ -197,8 +200,8 @@ h2.sticky-h2 a{color:#ff4e00;}
 
 
 /* #footer */
-#footer{margin:20px auto 0;background:#454546;height:50px;}
-#footer-inside{position:relative;width:640px;margin:0 auto;padding:5px 320px 5px 0;color:#aaa;}
+#footer{margin:20px auto 0;background:#454546;height:50px;bottom: 0; display: none}
+#footer-inside{width:640px;margin:0 auto;padding:5px 320px 5px 0;color:#aaa;}
 #footer-inside a{border-bottom:1px dashed #aaa;color:#aaa;}
 #footer-inside #back-to-top{position:absolute;top:5px;right:150px;line-height:20px;color:#fafafa;font-weight:bold;}
 #footer-inside #back-to-top a{line-height:20px;color:#aaa;font-weight:normal;border:none;}
