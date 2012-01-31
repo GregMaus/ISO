@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond $1 !^(index\.php|system|images)
-RewriteRule ^(.*)$ index.php/$1
